@@ -300,3 +300,64 @@ h1{
         animation:fadeInleft 0.5s ease both;
 
     }
+nav{
+    background:linear-gradient(135deg,#0f1a13 0%,#1a3a25 100);
+    border-bottom:none;
+    box-shadow:0 2px 20px rgba(26, 107,69,0.25);
+
+}
+nav a{
+    color:rgba(255,255,0.55);
+    border-bottom:2.5px solid transparent;
+    transition: color 0.25s, border-color 0.25s, background 0.25s;
+    border-radius: 4px 4px 0 0;
+}
+nav a.activate{
+    color:#fff;
+    border-bottom-color:#4ade80;
+    background:rgba(74, 222,128,0.1);
+
+}
+body > h1:first-of-type,
+h1{
+    background:linear-gradient(120deg, var(--green)0%, #4ade80 50%,var(--gold)100%);
+    background-size:200% 200%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-clip:text;
+    animation: fadeInLeft 0.7s ease both, gradientShift 6s ease inifinite;
+
+
+}
+.my-box.my-box:nth-of-type(2n){
+    border-left:4px solid var(--green-mid);
+    background: linear-gradient(160deg, #fff 80%, #f0faf5 100% );
+
+}
+.my-box.my-box:nth-of-type(3n){
+    border-left:4px solid var(--gold);
+    background: linear-gradient(160deg,#fff 80%,#fdf6ec 100%);
+}
+.my-box.my-box.my-box:nth-of-type(3n){
+    border-left:4px solid var(--gold);
+    background:linear-gradent(160deg,#fff 80%,#fdf6ec 100%);
+
+}
+.my-box .my-box{
+    animation: pulse-border 3s ease-in-out infinite;
+    border:1.5px solid var(--green-light);
+
+}
+.my-box strong{
+    display:inline-block;
+    background: linear-gradient(90deg, var(--green-light), #d4f5e2);
+    color:var(--green);
+    font-size: 0.8rem;
+    font-size: 700;
+    letter-spacing: 0.4em;
+    padding:2px 10px;
+    border-radius: 20px;
+    margin: 0 2px;
+    
+}
+
