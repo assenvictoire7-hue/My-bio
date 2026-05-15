@@ -132,5 +132,100 @@ h1{
     }
     .my-box p {
         margin-bottom: 1rem;
+        color:var(--text);
+        line-height: 1.8;
+
     }
+    .my-box p:last-child{
+        margin-bottom:1rem;
+        color:var(--text);
+        line-height: 1.8;
+    }
+    .my-box h2{
+        margin-top: 0;
+    }
+    .my-box
+    .my-box{
+        background:var(--cream);
+        border: 1px solid var(--green-light);
+        margin:1.5rem 0 0;
+    }
+    .my-box > *:first-child:not(P):not(p):not(h2):not(h3){
+        font-family:'Playfair Display',serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color:var(--dark);
+        margin-bottom: 1rem;
+        display:block;
+    }
+        .my-box
+        .my-box p:first-child{
+            font-size: 1rem;
+            }
+
+            footer{
+                margin-top:4rem;
+                padding:2rem 2.5rem;
+                background:var(--dark);
+                color:rgba(255,255,255,0.65);
+                font: size 0.875rem;
+                line-height:1.9;
+                border-top:3px solid var(--green-mid);
+            }
+            footer p{
+                margin:0;
+            }
+            footer p:first-child{
+                color:rgba(255,255,255,0.9);
+                font-weight: 500;
+            }
+            a:not(nav a ) {
+                color:var(--green-mid);
+                text-decoration:underline;
+                text-underline-offset: 3px;
+                transition:color 0.2s;
+            }
+            a:not(nav a):hover{
+                color: var(--green);
+            }
+            nav a {
+                padding: 0.6rem 0.75rem;
+                height:auto;
+                font: size 13px;
+                border-bottom:none;
+                border-bottom:none;
+                border-right: 2.5px solid transparent;
+            }
+            h1{
+                margin: 2rem 1rem 0.5rem;
+            }
+            body > p:first-of-type,
+            body>p,
+            body>div>p{
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            .my-box{
+                margin:1rem;
+                padding:1.25rem 1.25rem;
+            }
+            footer{
+                padding: 1.5rem 1rem;
+
+            }
+             body:has(1) > p:first-of-type{
+                font-size:1.05rem;
+             }
+            .my-box 
+            .my-box p +p{
+                border-left: 2px solid var(--gold-light);
+                padding-left: 2px solid var(--gold-light);
+                padding-left:0.75rem;
+                margin: left -0.75rem;
+            }
+            
+            
+
+
+    
     
