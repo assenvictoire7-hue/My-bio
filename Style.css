@@ -1,5 +1,6 @@
 
-:root{
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }:root{
     --green:#1a6b45;
     --green-light:#d4ede0;
     --green-mid:#294357;
@@ -442,28 +443,3 @@ a:not(nav a):hover::after{
 a:not(nav a):hover{
     color:var(--green);
 }
-@media (prefers-reduce-motion:reduce){
-    *,
-    *::before,
-    *::after{
-        animation-duration:0.01ms ;
-        transition-duration: 0.01ms ;
-
-    }
-    @media(max-width: 640px){
-        .my-box.my-box.my-box:nth-of-type(2n),
-        .my-box.my-box.my-box:nth-of-type(3n),
-        .my-box.my-box:nth-of-type(4n){
-            border-left-width: 3px;
-            
-        }
-        .page-hero{ --green:var(--green)
-        }
-        
-        }
-
-            
-        
-    
-}
-
